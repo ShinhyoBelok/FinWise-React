@@ -1,10 +1,12 @@
 import './App.css'
 import Mainpage from './pages/Mainpage'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
-    <div>
+    <div className='appDiv flexbox'>
+      <Navbar />
       <Mainpage />
     </div>
   )
