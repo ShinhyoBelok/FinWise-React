@@ -1,0 +1,9 @@
+#chart_div {
+  width: 1000px;
+  height: 500px;
+  background-color: none;
+}
+
+.accountCardContainer {
+  flex-direction: column;
+}

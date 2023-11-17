@@ -68,7 +68,7 @@ export default function Navbar() {
       <ul className="nav-list">
         <li>
           <a onClick={closeSidebar} href="#">
-            <i className='bx bx-grid-alt'></i>
+            <i class='bx bxs-dashboard'></i>
             <span className="links_name">Dashboard</span>
           </a>
           <span className="tooltip">Dashboard</span>

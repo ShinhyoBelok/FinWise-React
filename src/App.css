@@ -2,8 +2,9 @@
 
 :root {
   --logo-green: #32ac42;;
-  --background-color: #1f1d30; 
+  --background-color: #29273f; 
   --btn-bg-color: #a455ff;
+  --dark-text-color: #11101d;
   background-color: var(--background-color);
 }
 

@@ -1,13 +1,13 @@
 import './App.css'
-import Mainpage from './pages/Mainpage'
 import Navbar from './components/Navbar'
+import Dashboard from './pages/Dashboard'
 
 function App() {
 
   return (
     <div className='appDiv flexbox'>
       <Navbar />
-      <Mainpage />
+      <Dashboard />
     </div>
   )
 }
