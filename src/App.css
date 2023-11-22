@@ -2,7 +2,7 @@
 
 :root {
   --logo-green: #32ac42;;
-  --background-color: #29273f; 
+  --background-color: #191829; 
   --btn-bg-color: #a455ff;
   --dark-text-color: #11101d;
   background-color: var(--background-color);
@@ -13,7 +13,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.05rem;
   color: white;
 }
 
