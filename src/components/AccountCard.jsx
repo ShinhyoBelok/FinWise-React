@@ -8,17 +8,19 @@ export default function AccountCard() {
 
     function drawChart() {
       var data = google.visualization.arrayToDataTable([
-        ['Year','Balance'],
-        ['2013',1000],
-        ['2014',1170],
-        ['2015',660],
-        ['2016',1030]
+        ['Mounth','$'],
+        ['May',1000],
+        ['Jun',1170],
+        ['Jul',660],
+        ['Aug',1030],
+        ['Aug',1030],
+        ['Aug',1030],
       ]);
 
       var options = {
-        hAxis: {title: 'Year',  titleTextStyle: {color: 'white'},  textStyle: {color: 'white'}},
+        hAxis: {title: 'Mounth',  titleTextStyle: {color: 'white'},  textStyle: {color: 'white'}},
         vAxis: {minValue: 0,  textStyle: {color: 'white'}},
-        backgroundColor: '#29273f',
+        backgroundColor: '3a516c',
         legend: {position: 'none', textStyle: {color: 'white'}},
       };
 
