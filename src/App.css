@@ -5,7 +5,8 @@
   --background-color: #191829; 
   --btn-bg-color: #a455ff;
   --dark-text-color: #11101d;
-  background-color: var(--background-color);
+  --second-bg-color: #3a516c;
+  --third-bg-color: #55708f;
 }
 
 #appDiv {
@@ -13,9 +14,9 @@
 }
 
 #root{
-  padding: 4rem;
-  padding-left: calc(78px + 4rem);
+  padding-left: 78px;
   height: 100vh;
+  background-color: var(--background-color);
 }
 
 * {
