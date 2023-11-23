@@ -1,50 +1,9 @@
 import React from 'react'
 import 'boxicons'
 import './styles/navbar.css'
-import { useEffect, useRef } from 'react';
+import { NavLink } from 'react-router-dom'
 
 export default function Navbar() {
-  // sidebarRef.current.classList.toggle("open");
-
-  // closeBtn.addEventListener("click", ()=>{
-  //   sidebarRef.current.classList.toggle("open");
-  //   menuBtnChange();//calling the function(optional)
-  // });
-  // console.log(sidebarRef.current.classList);
-
-
-  // const sidebar = () => {
-  //   sidebarRef.current.scrollIntoView();
-  // };
-
-  // let sidebar = document.querySelector(".sidebar");
-  // let closeBtn = document.querySelector("#btn");
-  // let searchBtn = document.querySelector(".bx-search");
-
-  // useEffect(() => {
-  //   sidebar = document.querySelector(".sidebar");
-  //   closeBtn = document.querySelector("#btn");
-  //   searchBtn = document.querySelector(".bx-search");
-  // }, []);
-
-  // closeBtn.addEventListener("click", ()=>{
-  //   sidebar.classList.toggle("open");
-  //   console.log(sidebar.classList);
-  //   menuBtnChange();//calling the function(optional)
-  // });
-  // searchBtn.addEventListener("click", ()=>{ // Sidebar open when you click on the search iocn
-  //   sidebar.classList.toggle("open");
-  //   menuBtnChange(); //calling the function(optional)
-  // });
-  // console.log(closeBtn);
-  // // following are the code to change sidebar button(optional)
-  // function menuBtnChange() {
-  //  if(sidebar.classList.contains("open")){
-  //    closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");//replacing the iocns class
-  //  }else {
-  //    closeBtn.classList.replace("bx-menu-alt-right","bx-menu");//replacing the iocns class
-  //  }
-  // }
 
   const toggleSidebar = () => {
     const sidebar = document.querySelector(".sidebar");
@@ -67,10 +26,10 @@ export default function Navbar() {
       </div>
       <ul className="nav-list">
         <li>
-          <a onClick={closeSidebar} href="#">
+          <NavLink onClick={closeSidebar} to="/">
             <i class='bx bxs-dashboard'></i>
             <span className="links_name">Dashboard</span>
-          </a>
+          </NavLink>
           <span className="tooltip">Dashboard</span>
         </li>
         <li>
@@ -102,10 +61,10 @@ export default function Navbar() {
         <span className="tooltip">Files</span>
       </li>
       <li>
-        <a onClick={closeSidebar} href="#">
+        <NavLink to="register" onClick={closeSidebar}>
           <i className='bx bx-cart-alt' ></i>
           <span className="links_name">Order</span>
-        </a>
+        </NavLink>
         <span className="tooltip">Order</span>
       </li>
       <li>
