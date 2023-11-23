@@ -1,0 +1,17 @@
+#chart_all_account_div {
+  width: 80vw;
+  background-color: none;
+}
+
+.total{
+  width: 100%;
+}
+
+.totalAccount {
+  flex-direction: column;
+  /* width: 100%; */
+  background-color: #3a516c;
+  /* padding: 1rem; */
+  border-radius: 1rem;
+  padding: 1rem;
+}
