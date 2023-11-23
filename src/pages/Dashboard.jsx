@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles/dashboard.css'
 import AccountCard from '../components/AccountCard'
+import TotalDashboard from '../components/TotalDashboard'
 
 export default function Dashboard() {
   return (
@@ -9,7 +10,9 @@ export default function Dashboard() {
         <AccountCard />
         <AccountCard />
         <AccountCard />
-        <AccountCard />
+      </section>
+      <section className="total">
+        <TotalDashboard />
       </section>
     </div>
   )

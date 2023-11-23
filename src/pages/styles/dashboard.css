@@ -1,13 +1,15 @@
 .dashboardContainer {
-  padding-left: 78px;
+  height: 100%;
   width: 100%;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
+  justify-content: space-between;
 }
 
 #accountSection {
-  width: 98%;
-  padding: 2rem;
-  gap: 3rem;
+  /* width: 98%; */
+  /* padding: 2rem; */
+  /* gap: 3rem; */
+  justify-content: space-between;
   overflow-x: auto;
 }
