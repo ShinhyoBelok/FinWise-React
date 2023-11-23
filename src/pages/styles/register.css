@@ -1,0 +1,34 @@
+#registerId {
+  width: 100%;
+}
+
+.selectionMenu {
+  flex-direction: column;
+  background-color: var(--second-bg-color);
+  width: 100%;
+  align-items: center;
+}
+
+.selectionMenu {
+  padding: 1rem;
+}
+
+.options {
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  background-color: var(--third-bg-color);
+}
+
+.options div {
+  border-radius: 0.3rem;
+  padding: 0.2rem 2rem;
+}
+
+.activeSelection {
+  color: black;
+  background-color: white;
+}
+
+.line {
+  border-right: 2px solid var(--second-bg-color);
+}
