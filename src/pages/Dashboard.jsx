@@ -9,6 +9,7 @@ export default function Dashboard() {
         <AccountCard />
         <AccountCard />
         <AccountCard />
+        <AccountCard />
       </section>
     </div>
   )
