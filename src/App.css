@@ -8,6 +8,16 @@
   background-color: var(--background-color);
 }
 
+#appDiv {
+  height: 100%;
+}
+
+#root{
+  padding: 4rem;
+  padding-left: calc(78px + 4rem);
+  height: 100vh;
+}
+
 * {
   margin: 0;
   padding: 0;
