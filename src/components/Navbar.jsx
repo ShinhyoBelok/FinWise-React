@@ -27,7 +27,7 @@ export default function Navbar() {
       <ul className="nav-list">
         <li>
           <NavLink onClick={closeSidebar} to="/">
-            <i class='bx bxs-dashboard'></i>
+            <i className='bx bxs-dashboard'></i>
             <span className="links_name">Dashboard</span>
           </NavLink>
           <span className="tooltip">Dashboard</span>

@@ -47,7 +47,7 @@ export default function RegisterAccount() {
         </div>
         <div className="formElement">
           <div className="formLabel">
-            <i class='bx bx-note' ></i>
+            <i className='bx bx-note' ></i>
             Note
           </div>
           <div className='formIn'>

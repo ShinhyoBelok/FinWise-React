@@ -1,7 +1,8 @@
 #chart_div {
   width: 25vw;
-  height: 250px;
+  /* height: 35vh; */
   background-color: none;
+  /* width: fit-content; */
 }
 
 .accountCardContainer {
