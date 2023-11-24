@@ -1,0 +1,16 @@
+.formAdd {
+  flex-direction: column;
+}
+
+.formElement {
+  display: flex;
+  justify-content: center;
+}
+
+.formLabel {
+  width: 10rem;
+}
+
+.formIn {
+  width: 20rem;
+}
