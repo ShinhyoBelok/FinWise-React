@@ -7,6 +7,7 @@
   --dark-text-color: #11101d;
   --second-bg-color: #3a516c;
   --third-bg-color: #55708f;
+  --icon-bg: #7752FE;
 }
 
 #appDiv {
@@ -34,4 +35,22 @@ h2 {
 
 .flexbox {
   display: flex;
+}
+
+#appContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #3e5a88;
+  height: 64px;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
 }
