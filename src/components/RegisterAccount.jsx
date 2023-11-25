@@ -1,10 +1,19 @@
 import React from 'react'
-import './styles/RegisterAccount.css'
+import './styles/registerAccount.css'
 
 export default function RegisterAccount() {
   return (
     <section id="addSection">
       <span>Register</span>
+      <div className="selectionMenu flexbox">
+        <div className="options flexbox">
+          <div>Expenses</div>
+          <span className="line"></span>
+          <div>Income</div>
+          <span className="line"></span>
+          <div>Transfer</div>
+        </div>
+      </div>
       <form className="formAdd flexbox">
         <div className="formElement">
           <div className="formLabel">
@@ -19,7 +28,6 @@ export default function RegisterAccount() {
               <option value="audi">Audi</option>
             </select> 
           </div>
-          <label for="cars"></label>
         </div>
         <div className="formElement">
           <div className="formLabel">
@@ -51,7 +59,7 @@ export default function RegisterAccount() {
             Note
           </div>
           <div className='formIn'>
-            <input type="text" id="note" name="note" />
+            <input type="text" id="note" name="note" placeholder='Add a note' />
           </div>
         </div>
       </form>

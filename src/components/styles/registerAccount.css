@@ -1,16 +1,54 @@
 .formAdd {
   flex-direction: column;
+  background-color: var(--second-bg-color);
+  padding: 2rem;
 }
 
 .formElement {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 25vw;
+  border-bottom: 1px solid var(--third-bg-color);
+}
+
+#addSection {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .formLabel {
-  width: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.formLabel i{
+  background-color: var(--icon-bg);
+  padding: 0.5rem;
+  border-radius: 50%;
 }
 
 .formIn {
-  width: 20rem;
+  display: flex;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.formIn select {
+  width: 100%;
+  text-align: center;
+  background-color: var(--second-bg-color);
+  border: 1px solid;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
+
+.formIn input {
+  text-align: start;
+  background-color: var(--second-bg-color);
+  padding: 0.2rem;
+  border: none;
+  border-bottom: 1px solid;
 }
