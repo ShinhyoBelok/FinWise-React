@@ -15,8 +15,6 @@ export default function Navbar() {
     sidebar.classList.remove("open");
   }
 
-
-
   return (
     <nav className="sidebar">
       <div className="logo-details">
