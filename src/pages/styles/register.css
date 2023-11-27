@@ -21,15 +21,24 @@
 }
 
 .options div {
+  border: none;
   border-radius: 0.3rem;
   padding: 0.2rem 2rem;
+  user-select: none;
+  cursor: pointer;
 }
 
 .activeSelection {
   color: black;
-  background-color: white;
+  background-color: white !important;
 }
 
 .line {
   border-right: 2px solid var(--second-bg-color);
+}
+
+.activeOp {
+  /* background: fixed; */
+  background-color: white;
+  color: var(--background-color);
 }
