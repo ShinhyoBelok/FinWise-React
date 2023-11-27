@@ -15,6 +15,10 @@ export default function RegisterAccount() {
         </div>
       </div>
       <form className="formAdd flexbox">
+        <div id="amountInput">
+          <label htmlFor="amount">Currency</label>
+          <input type="text" id='amount'name='amount' placeholder='0'/>
+        </div>
         <div className="formElement">
           <div className="formLabel">
             <i className='bx bxs-bank'></i>
