@@ -14,7 +14,7 @@ export default function FormSelection(props) {
         {name}
       </div>
       <div className="formIn">
-        <select name="cars" id="cars">
+        <select name={name.toLowerCase()} id={id}>
           {selections.map((select) => (
             <option value={`${select.toLowerCase()}`}>{select}</option>
           ))}
