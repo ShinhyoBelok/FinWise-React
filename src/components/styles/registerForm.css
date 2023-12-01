@@ -69,3 +69,20 @@
   width: 250px;
   text-align: end;
 }
+
+#amountInput input:focus {
+  border: none;
+}
+
+#amountInput input.expenses{
+  color: rgb(255, 21, 21);
+}
+
+#amountInput input.income{
+  color: rgb(0, 255, 0);
+}
+
+#amountInput input.transfer{
+  color: white;
+}
+
