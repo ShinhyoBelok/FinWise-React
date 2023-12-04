@@ -1,0 +1,8 @@
+.ulList {
+  list-style: none;
+  background-color: var(--second-bg-color);
+}
+
+.ulList li {
+  
+}
