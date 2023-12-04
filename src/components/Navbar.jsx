@@ -38,11 +38,11 @@ export default function Navbar() {
         <span className="tooltip">User</span>
       </li>
       <li>
-        <a onClick={closeSidebar} href="#">
-          <i className='bx bx-chat' ></i>
-          <span className="links_name">Messages</span>
-        </a>
-        <span className="tooltip">Messages</span>
+        <NavLink onClick={closeSidebar} to="/addCategory">
+          <i class='bx bx-category'></i>
+          <span className="links_name">Category</span>
+        </NavLink>
+        <span className="tooltip">Category</span>
       </li>
       <li>
         <a onClick={closeSidebar} href="#">

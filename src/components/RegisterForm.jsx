@@ -62,21 +62,21 @@ export default function RegisterForm() {
           key={uuidv4()}
           id={'acc1'}
           name={'Account'}
-          selections={['Banreservas', 'BHD', 'Popular']}
+          selections={['Banreservas', 'BHD', 'Popular', 'Add more']}
         />
         {linkState == 'transfer' ?
           <FormSelection
             key={uuidv4()}
             id={'acc2'}
             name={'Account'}
-            selections={['Banreservas', 'BHD', 'Popular']}
+            selections={['Banreservas', 'BHD', 'Popular', 'Add more']}
           />
          :
          <FormSelection
             key={uuidv4()}
             id={'categoryFormId'}
             name={'Category'}
-            selections={['Purchase', 'House', 'Transport']}
+            selections={['Purchase', 'House', 'Transport', 'Add more']}
           />
         }
         <div className="formElement">
