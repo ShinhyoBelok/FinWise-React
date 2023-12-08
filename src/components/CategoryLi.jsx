@@ -1,8 +1,10 @@
 import React from 'react'
-import './styles/categoryList.css'
 
 export default function CategoryLi() {
   return (
-    <li>cate li</li>
+    <div className="formLabel categotyLi">
+      <i className='bx bx-calendar-x' ></i>
+      Date
+    </div>
   )
 }
